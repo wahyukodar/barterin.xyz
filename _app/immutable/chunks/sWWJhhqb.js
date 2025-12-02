@@ -1,0 +1,1 @@
+import{a as e}from"./CZh5ITwt.js";import{c as t}from"./CUBrG49h.js";const i={listCombobox:async o=>await e.get("/city/list/combobox",{params:o})};function a(o){return t({queryKey:["combobox_cities",o],queryFn:async()=>(await i.listCombobox(o)).data,enabled:!!(o.cityType&&o.cityName),staleTime:60*1e3,gcTime:300*1e3})}export{a as u};

@@ -1,0 +1,1 @@
+const t="/request-otp",R="/login",s="/admin",A=s+"/dashboard",o=s+"/product",_=s+"/warehouse",n=s+"/mutation_stock",c=s+"/profile",L=s+"/cashier",a=s+"/langganan",U=a+"/product",N=a+"/product_variation",O=s+"/transaction",T=o;export{L as C,T as D,R as L,o as P,t as R,n as S,O as T,_ as W,A as a,a as b,U as c,N as d,c as e};
